@@ -22,7 +22,7 @@ conda install tqdm
 
 conda install pandas
 
-这里提供一个数据集，Unet++官方提供的
+这里提供一个数据集，DSB2018，大家可以跑自己的数据集，如果有可能可以在评论区讨论一下准确度
 1. Download dataset from [here](https://www.kaggle.com/c/data-science-bowl-2018/data) to inputs/ and unzip. The file structure is the following:
 ```
 inputs
