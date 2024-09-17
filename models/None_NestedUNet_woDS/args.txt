@@ -1,0 +1,17 @@
+name: None_NestedUNet_woDS
+arch: NestedUNet
+deepsupervision: False
+dataset: None
+input_channels: 3
+image_ext: png
+mask_ext: png
+aug: False
+loss: BCEDiceLoss
+epochs: 1000
+early_stop: 20
+batch_size: 8
+optimizer: Adam
+lr: 0.0003
+momentum: 0.9
+weight_decay: 0.0001
+nesterov: False
